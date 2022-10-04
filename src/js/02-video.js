@@ -15,5 +15,3 @@ function setCurrentTime() {
   }
   player.setCurrentTime(localStorage.getItem(CURRENT_TIME));
 }
-
-//  player.on("timeupdate", throttle(playOn, 1000));
